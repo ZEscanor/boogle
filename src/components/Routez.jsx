@@ -6,7 +6,8 @@ import {Results} from '.';
 const OPath= () => useRoutes([
   { path: "/search", element: <Results/> },
   { path: "/news", element: <Results/> },
-  { path: "/images", element: <Results/>}
+  { path: "/image", element: <Results/>},
+  { path: "/videos", element: <Results/>}
 ]);
 const Routez = () => {
   return (
